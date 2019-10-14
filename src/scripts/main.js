@@ -3,6 +3,12 @@ const myDog = {
     species: "Lab",
     nicknames: ["Stevie", "boy", "Stever"],
     age: 7,
+    favoriteToys: [],
+    play: function (toy) {
+        if (toy = "rubber"){
+            this.favoriteToys.push();
+        }
+    },
     growl: function (emotion) {
         window.alert("Steve is growling" + " " + emotion)
     },
@@ -14,3 +20,5 @@ const myDog = {
     }
 }
 myDog.growl("angrily");
+myDog.favoriteToys.push('ball');
+console.log(myDog.favoriteToys);
