@@ -6,7 +6,7 @@ const myDog = {
     favoriteToys: [],
     play: function (toy) {
         if (toy = "rubber"){
-            this.favoriteToys.push();
+            this.favoriteToys.push(toy);
         }
     },
     growl: function (emotion) {
@@ -19,6 +19,5 @@ const myDog = {
         window.alert("Steve is" + action + " ")
     }
 }
-myDog.growl("angrily");
 myDog.favoriteToys.push('ball');
 console.log(myDog.favoriteToys);
