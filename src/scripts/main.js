@@ -5,7 +5,8 @@ const myDog = {
     age: 7,
     favoriteToys: [],
     play: function (toy) {
-        if (toy = "rubber"){
+        if (toy.includes("rubber")){
+         
             this.favoriteToys.push(toy);
         }
     },
@@ -19,5 +20,6 @@ const myDog = {
         window.alert("Steve is" + action + " ")
     }
 }
-myDog.favoriteToys.push('ball');
+myDog.play('rubber-ball');
+myDog.play('stick');
 console.log(myDog.favoriteToys);
